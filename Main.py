@@ -4,7 +4,7 @@ def insertionSort(array) -> List[int]:
   # Write your code here
    for step in range(1, len(array)):
         key = array[step]
-        j = step - 1 ;  
+        j = step - 1   
         while j >= 0 and key < array[j]:
             array[j + 1] = array[j]
             j = j - 1
